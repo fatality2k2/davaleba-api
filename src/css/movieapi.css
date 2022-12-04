@@ -1,0 +1,102 @@
+.body {
+  padding: 10px;
+}
+.movies_container {
+  background: url(../assets/pexels-mohamed-sarim-1033729.jpg) no-repeat center
+    fixed;
+}
+.movies_container a {
+  font-size: 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.movies_search {
+  color: red;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 20px 20px 20px;
+  flex-direction: row;
+}
+.movies_search input {
+  font-size: 25px;
+  outline: 0;
+  border-width: 0 0 2px;
+  color: black;
+  border-color: black;
+  background-color: inherit;
+  height: 50px;
+  width: 75%;
+}
+.movies_search button {
+  width: 20%;
+  height: 55px;
+  font-size: 25px;
+  background-color: inherit;
+  border-radius: 50px;
+  border-color: rgb(228, 21, 228);
+  color: rgb(228, 21, 228);
+}
+.movies_search button:hover {
+  background-color: rgb(252, 200, 105);
+}
+.movies_box {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  border-style: solid;
+  border-radius: 120px;
+  border-color: rgb(228, 21, 228);
+  margin: 0px 0px 25px 0px;
+}
+.movies_poster_image {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.movies_poster {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.movies_title_container {
+  color: rgb(228, 21, 228);
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px 0px 0px;
+}
+.movies_title {
+  font-size: 25px;
+  height: 30px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-right: 100px;
+}
+.movies_title_N {
+  width: 90%;
+}
+.movies_rating {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+}
+.movies_release_date {
+  height: 40px;
+}
+.movies_overview {
+  color: rgb(228, 21, 228);
+  font-family: sans-serif;
+  font-weight: bold;
+}
